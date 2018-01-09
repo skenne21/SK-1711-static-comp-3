@@ -10,11 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-
     <header class="header" role="banner">
-      <form class="header__form-search-bar">
+      <form class="header__form-search-bar" role="form">
         <button class="header__form__btn header__form__btn--hamburger"><span class="header__form__btn--blue-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></span><i class="fa fa-bars" aria-hidden="true"></i></button>
-        <input class="header__input" type="search" placeholder="Search for Job, Tasks, or Resumes" aria-labeledby="search bar">
+        <input class="header__input" type="search" placeholder="Search for Job, Tasks, or Resumes" aria-label="search bar">
         <button class="header__form__btn header__form__btn--active"><i class="fa fa-user-circle-o" aria-hidden="true"></i></button>
         <button class="header__form__btn header__form__btn-mid" ><i class="fa fa-calendar-check-o" aria-hidden="true"></i></button>
         <button class="header__form__btn"><i class="fa fa-th" aria-hidden="true"></i></button>
@@ -22,12 +21,12 @@
       <h1 class="header__h1">Customer Relationship Management</h1>
       <p class="header__p"><span class="header__p__span"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>Denver, CO∙<span class="header__p__span--active">Preview This Post</span></p>
       <nav class="header__nav-index-page">
-        <a class="header__index-page__a--active">Summery</a>
-        <a class="header__index-page__a">Appicants</a>
-        <a class="header__index-page__a">Job Borad</a>
-        <a class="header__index-page__a">Interviews</a>
-        <a class="header__index-page__a">Boradcast</a>
-        <a class="header__index-page__a">Notifcations</a>
+        <a class="header__index-page__a--active" title="Summery">Summery</a>
+        <a class="header__index-page__a" title="Appicants">Appicants</a>
+        <a class="header__index-page__a" title="Job Broad">Job Borad</a>
+        <a class="header__index-page__a" title="Interviews">Interviews</a>
+        <a class="header__index-page__a" title="broadcast">Broadcast</a>
+        <a class="header__index-page__a" title="Notifcations">Notifcations</a>
       </nav>
       <div class="header__button-container">
         <button class="header__btns header__btn--open"><span class="header__btn--active"><i class="fa fa-circle" aria-hidden="true"></i></span>Open</button>
@@ -37,8 +36,6 @@
         </div>  
       </section>
     </header>
-
-
     <aside class="aside" role="navigation">
       <div class="aside-container">
         <figure class="aside__figure">
@@ -47,29 +44,29 @@
         </figure>
         <section class="aside__main-link-contanier">
           <h3 class="aside__h3">Main</h3>
-          <!-- <form class="aside__main--link__form"> -->
-            <a class="aside__link" ><span class="aside__link__span"><i class="fa fa-home" aria-hidden="true"></i></span>Home</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-briefcase" aria-hidden="true"></i></span>Jobs</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>Resumes</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-tasks" aria-hidden="true"></i></span>Tasks</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-calendar" aria-hidden="true"></i></span>Calendar</a>
-          <!-- </form> -->
+          <form class="aside__main--link__form" role="form">
+            <a class="aside__link" title="Home page"><span class="aside__link__span"><i class="fa fa-home" aria-hidden="true"></i></span>Home</a>
+            <a class="aside__link" title="Jobs page"><span class="aside__link__span"><i class="fa fa-briefcase" aria-hidden="true"></i></span>Jobs</a>
+            <a class="aside__link" title="resume page"><span class="aside__link__span"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>Resumes</a>
+            <a class="aside__link" title="tasks page"><span class="aside__link__span"><i class="fa fa-tasks" aria-hidden="true"></i></span>Tasks</a>
+            <a class="aside__link" title="Calendar page"><span class="aside__link__span"><i class="fa fa-calendar" aria-hidden="true"></i></span>Calendar</a>
+          </form>
         </section>
         <section class="aside__admin-link-contanier">
           <h3 class="aside__h3">Admin</h3>
-          <!-- <form class="aside__admin-link__form"> -->
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-users" aria-hidden="true"></i></span>User</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>Locations</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-cogs" aria-hidden="true"></i></span>Workflow</a>
-            <a class="aside__link aside__link--active"><span class="aside__link__span"><i class="fa fa-server" aria-hidden="true"></i></span>JobBroad</a>
-            <a class="aside__link"><span class="aside__link__span"><i class="fa fa-comments-o" aria-hidden="true"></i></span>Socail</a>
-          <!-- </form> -->
+          <form class="aside__admin-link__form" role="form">
+            <a class="aside__link" title="users"><span class="aside__link__span"><i class="fa fa-users" aria-hidden="true"></i></span>User</a>
+            <a class="aside__link" title="locations"><span class="aside__link__span"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>Locations</a>
+            <a class="aside__link" title="Workflow"><span class="aside__link__span"><i class="fa fa-cogs" aria-hidden="true"></i></span>Workflow</a>
+            <a class="aside__link aside__link--active" title="Job Broad"><span class="aside__link__span"><i class="fa fa-server" aria-hidden="true"></i></span>JobBroad</a>
+            <a class="aside__link" title="social"><span class="aside__link__span"><i class="fa fa-comments-o" aria-hidden="true"></i></span>Socail</a>
+          </form>
         </section>
-        <form class="aside__form">
+        <form class="aside__form" role="form">
           <h3 class="aside__h3">Categories</h3>
           <div class="checkbx-1">
             <input type="checkbox" value="Admin" id="checkbx-1" class="form__checkbx-input">
-            <label class="checkbx__label checkbx__label--1" for="checkbx-1" ></label>
+            <label class="checkbx__label checkbx__label--1" for="checkbx-1"></label>
             <h4 class="checkbx__h4">Admin</h4>
           </div>
           <div class="checkbx-2">
@@ -85,9 +82,6 @@
         </form>
       </div>
     </aside>
-
-
-
     <main  class="main" role="main">
       <section class="section-graphs">
         <article class="article__circle-container">
@@ -110,10 +104,12 @@
           <button class="section-graph__btns section-graph__bar-chart-btn">Applicants Emails</button>
         </figure>
         <div class="section-graphs--arrow-circle"></div>
+        <div class="section-graph__line-break-contianer">
+          <hr class="section-graph__hr">
+          <button class="section-graphs__link-break__btn"><i class="fa fa-sort-asc" aria-hidden="true"></i></button>
+          <hr class="section-graph__hr section-graph__hr--right">
+        <div>
       </section>
-
-
-
       <section class="content">
         <article class="article-resume">
           <div class="article-resume__container">
@@ -121,7 +117,7 @@
               <h3 class="article-resume__h3">Job Desceription</h3>
               <button class="article-resume__btn"><span class="article-resume__btn--span"><i class="fa fa-pencil" aria-hidden="true"></i></span>Edit</button>
             </header>
-            <section class="article-resume__section">
+            <section class="article-resume__section" aria-lable="job table">
               <dl class="dl">
                 <dt class="dl__dt dl__dt--1">Postion Title:</dt>
                 <dd class="dl__dd dl__dt--1">Customer Relationship Management</dd>
@@ -145,9 +141,8 @@
                 <dd class="dl__dd"><span class="dl__dd__img"><img class="dl__dd__img" src="photos/alex-harvey-2.jpg" alt=""></span>Tom Tizzy</dd>
                 <hr>
                 <dt class="dl__dt dl__dt--bottom">Approved Salary:</dt>
-                <dd class="dl__dd dl__dd--bottom">$10.00</dd>
-                <!-- <hr> -->
-              </dl>  
+                <dd class="dl__dd dl__dd--bottom">$10.00</dd> 
+              </dl>
             </section>
           </div>
         </article>
@@ -156,12 +151,12 @@
             <button class="footer__btn-social-media"><span class="footer__btn-social-media--span"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>Post to Facebook</button>
             <button class="footer__btn-social-media"><span class="footer__btn-social-media--span"><i class="fa fa-twitter" aria-hidden="true"></i></span>Post to Twitter</button>
             <button class="footer__btn-social-media"><span class="footer__btn-social-media--span"><i class="fa fa-linkedin" aria-hidden="true"></i></span>Post to Linkedin</button>
-            <form class="footer__form">
+            <form class="footer__form" aria-role="form">
               <h3 class="footer__form__h3"><span class="footer__form__h3--span"><i class="fa fa-globe" aria-hidden="true"></i></span>Link to this Job</h3>
               <p class="footer__form__p">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
               <p class="footer__form__link" href="">www.google.com<span class="footer__form__link--span"><button class="footer__form__btn">copy</button></span></p>
             </form>
-            <form class="footer__form">
+            <form class="footer__form" aria-role="form">
               <h3 class="footer__form__h3"><span class="footer__form__h3--span"><i class="fa fa-magic" aria-hidden="true"></i></span>Proactive Domination</h3>
               <p class="footer__form__p">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
               <p class="footer__form__link" href="">www.google.com<span class="footer__form__link--span"><button class="footer__form__btn">copy</button></span></p>
