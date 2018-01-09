@@ -8,5 +8,5 @@ this is the orignal comp we were given for this challenge:
 
 this is the recreated comp I made for the challenge:
 
-[comp created] (photos/comp-created.pngg)
+[comp created] (photos/comp-created.png)
 
