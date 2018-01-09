@@ -4,9 +4,9 @@ The static comp challenge is a series of three challenges to keep you working th
 
 this is the orignal comp we were given for this challenge:
 
-[oringal comp](photos/original-comp.png)
+[oringal comp](original-comp.png)
 
 this is the recreated comp I made for the challenge:
 
-[oringal comp](photos/original-comp.png)
+[oringal comp] (comp-created.pngg)
 
